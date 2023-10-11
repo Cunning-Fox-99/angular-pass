@@ -1,0 +1,47 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.form-group input {
+  width: 150px;
+}
+
+.password-section {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 12px;
+}
+
+.password-section__wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  border: 1px solid black;
+}
+
+.password-section__item {
+  width: 30px;
+  height: 10px;
+  background: grey;
+}
+
+.password-section__item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.password-section__item.red {
+  background: red;
+}
+
+.password-section__item.yellow {
+  background: yellow;
+}
+
+.password-section__item.green {
+  background: green;
+}
+
